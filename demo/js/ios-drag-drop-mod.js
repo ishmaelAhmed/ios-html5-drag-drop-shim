@@ -54,11 +54,11 @@
         this.dragend(event, event.target);
         console.log(event.target)
         cleanup.call(this);
-        var div = doc.createElement('div');
-        div.innerText = '#'+event.target.id+ ' .'+event.target.className+' ';
-        console.log(document.querySelector('#target').parentNode)
-        console.log(event.target)
-        document.querySelector('#target').appendChild(div)
+        //var div = doc.createElement('div');
+        //div.innerText = '#'+event.target.id+ ' .'+event.target.className+' ';
+        //console.log(document.querySelector('#target').parentNode)
+        //console.log(event.target)
+        //document.querySelector('#target').appendChild(div)
 
       }
       function cleanup() {
